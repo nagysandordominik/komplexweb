@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programtervező informatikus</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="src/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komplex weboldal</title>
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <li><a href="#">Kezdőlap</a></li>
-            <li><a href="#">Rólunk</a></li>
-            <li><a href="#">Szolgáltatásaink</a></li>
-            <li><a href="#">Galéria</a></li>
-            <li><a href="#">Kapcsolat</a></li>
-          </ul>
-        </nav>
-      </header>
-    <div class="content">
-        <div class="title">
-            <h1>Üdvözlünk az oldalon!</h1>
-        </div>
-    </div>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="./index.html">ajtók/ablakok kft.</a></li>
+      <li><a class="menu__item" href="./aboutus.html">Rólunk</a></li>
+      <li><a class="menu__item" href="./references.html">Referencia</a></li>
+      <li><a class="menu__item" href="./products.html">Termékeink</a></li>
+      <li><a class="menu__item" href="./contact.html">Kapcsolat</a></li>
+    </ul>
+  </div>
+  </nav>
+  <h1>Üdvözlünk!</h1>
+  <div class="content">
+    <p class="text-content">
+    <b>Számunkra a profizmus a mérvadó!</b> <br>
+    Nyílászárók terén mi vagyunk a legjobb választás.
+    </p>
+  </div>
+  <div class="product-card">
+    <div class="products"><img src="./pics/egyes.png" alt=""> <h2>Aluminium nyilászárók</h2></div>
+    <div class="products"><img src="./pics/kettes.png" alt=""> <h2>Redőnyök</h2></div>
+    <div class="products"><img src="./pics/harmas.png" alt=""> <h2>Tolóajtók</h2></div>
+    <div class="products"><img src="./pics/negyes.jpeg" alt=""> <h2>Ablakok</h2></div>
+
+  </div>  
 </body>
 </html>
