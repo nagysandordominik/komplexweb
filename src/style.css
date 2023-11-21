@@ -102,8 +102,24 @@ h2 {
     margin: 10px;
     border-radius: 10px;
     flex-direction: column;
+    height: 35rem;
   }
-
+  .content img{
+    width: 130px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: black 0 0 5px;
+    justify-content: center;
+    margin: auto;
+  }
+  .text-content{
+    display: flex;
+  }
+  .text-content p {
+    width: 180px;
+    font-size: 10px;
+  }
+  
   .product-card{
     color: white;
     background: linear-gradient(18deg, rgba(255,176,103,1) 0%, rgba(255,195,111,0.22452731092436973) 100%);
@@ -125,9 +141,6 @@ h2 {
     font-size: 1em;
   }
 
-  .text-content{
-    font-size: 1.2em;
-  }
 
 
   /* Desktop version */
