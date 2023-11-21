@@ -15,7 +15,11 @@ h1 {
     color: white;
     font-size: 3em;
     text-align: center;
-    
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    width: 100%;
 }
 #menu__toggle {
     opacity: 0;
@@ -89,7 +93,7 @@ h1 {
     background-color: #CFD8DC;
   }
   .content {
-    text-align: center;
+    text-align:justify;
     color: white;
     background: linear-gradient(18deg, rgba(255,176,103,1) 0%, rgba(255,195,111,0.22452731092436973) 100%);
     width: 85%;
