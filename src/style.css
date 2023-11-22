@@ -16,9 +16,11 @@ h1 {
     font-size: 3em;
     text-align: center;
 }
+#icon{
+  width: 10%;
+}
 h2 {
     text-align: center;
-    margin: 0;
     width: 100%;
 }
 #menu__toggle {
@@ -93,22 +95,20 @@ h2 {
     background-color: #CFD8DC;
   }
   .content {
-    text-align:justify;
+    
     color: white;
     background: linear-gradient(18deg, rgba(255,176,103,1) 0%, rgba(255,195,111,0.22452731092436973) 100%);
     width: 85%;
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    padding: 0 20px 0;
     border-radius: 10px;
     flex-direction: column;
-    height: 35rem;
+    height: fit-content;
   }
   .content img{
     width: 130px;
     height: 300px;
     border-radius: 10px;
-    box-shadow: black 0 0 5px;
     justify-content: center;
     margin: auto;
   }
@@ -117,7 +117,7 @@ h2 {
   }
   .text-content p {
     width: 180px;
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .product-card{
