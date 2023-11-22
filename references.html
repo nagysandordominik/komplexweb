@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programtervező informatikus</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <ul>
-            <li><a href="#">Kezdőlap</a></li>
-            <li><a href="#">Rólunk</a></li>
-            <li><a href="#">Szolgáltatásaink</a></li>
-            <li><a href="#">Galéria</a></li>
-            <li><a href="#">Kapcsolat</a></li>
-          </ul>
-        </nav>
-      </header>
-    <div class="content">
-        <div class="title">
-            <h1>Üdvözlünk az oldalon!</h1>
-        </div>
-    </div>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="./index.html">ajtó <svg xmlns="http://www.w3.org/2000/svg" width="16px" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+      </svg> ablakok</a></li>
+      <li><a class="menu__item" href="./references.html">Referencia</a></li>
+      <li><a class="menu__item" href="./products.html">Termékeink</a></li>
+      <li><a class="menu__item" href="./services.html">Szolgáltatásaink</a></li>
+      <li><a class="menu__item" href="./contact.html">Kapcsolat</a></li>
+    </ul>
+  </div>
+  <h1>Munkáink</h1>
+  <div class="reference-card"><img src="./pics/telikert-csepel-1.jpg-nggid03275-ngg0dyn-240x160x100-00f0w010c011r110f110r010t010.jpg.webp" alt=""> 
+    <p>Télikert</p>
+  </div>
+  <div class="reference-card"><img src="./pics/Télikert-bejárati-ajtóval.jpg-nggid03283-ngg0dyn-240x160x100-00f0w010c011r110f110r010t010.jpg.webp" alt=""> 
+    <p>Terasz</p>
+  </div>
+  <div class="reference-card"><img src="./pics/telikert-epites-gyenesdias-1.jpg-nggid03305-ngg0dyn-240x160x100-00f0w010c011r110f110r010t010.jpg.webp" alt=""> 
+    <p>Műanyag nyílászárók</p>
+  </div>
+  <div class="reference-card"><img src="./pics/telikert-ives-tetovel-fot_1.jpg-nggid03300-ngg0dyn-240x160x100-00f0w010c011r110f110r010t010.jpg.webp" alt=""> 
+    <p>Télikert íves tetővel</p>
+  </div>
+  
+    
+  </div>
 </body>
 </html>
