@@ -17,6 +17,12 @@ body {
 	min-height: 100vh;
 	margin: auto;
 }
+.content-collection a{
+	text-decoration: none;
+	color: white;
+	font-style:italic;
+	font-weight: bolder;
+}
 h1 {
 	font-size: 3em;
 	text-align: center;
@@ -96,6 +102,24 @@ h2 {
 .menu__item:hover {
 	background-color: black;
 }
+.contact-content {
+	color: white;
+	background: linear-gradient(
+		18deg,
+		rgba(255, 176, 103, 1) 0%,
+		rgba(255, 195, 111, 0.22452731092436973) 100%
+	);
+	width: 85%;
+	display: flex;
+	padding: 0 20px 0;
+	margin: 0 20px 20px;
+	border-radius: 10px;
+	flex-direction: column;
+	height: fit-content;
+}
+.contact-content p{
+	text-align: center;
+}
 .content {
 	color: white;
 	background: linear-gradient(
@@ -143,7 +167,7 @@ h2 {
 		rgba(255, 176, 103, 1) 0%,
 		rgba(255, 195, 111, 0.22452731092436973) 100%
 	);
-	width: 85%;
+	width: 95%;
 	padding: 10px;
 	margin: 10px;
 	border-radius: 10px;
@@ -173,9 +197,13 @@ h2 {
 	.hamburger-menu {
 		display: none;
 	}
-	h1 {
+	.page-title {
 		font-size: 6em;
-		padding: 10px;
+		padding: 50px;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+		margin-bottom: 100px;
 	}
 	header{
 		margin: 20px;
@@ -184,6 +212,7 @@ h2 {
 		z-index: 1000;
 	}
 	.content-collection{
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -192,9 +221,8 @@ h2 {
 	.content{
 		text-align: justify;
 		font-size: 20px;
-		padding: 10px;
-		margin: 10px;
-		width: 600px;
+		padding: 5px;
+		width: 1000px;
 		height: fit-content;
 		justify-content: center;
 		align-items: center;
@@ -202,11 +230,20 @@ h2 {
 
 	.content h2{
 		font-size: 3rem;
+		height: fit-content;
+		width: fit-content;
+		margin: 0;
 	}
 	.content img{
 		height: 50vh;
 		width: 20vw;
 	}
+	.contact-content{
+		width: fit-content;
+		font-size: 1em;
+		margin: 0;
+	}
+	
 	.text-content {
 		display: flex;
 		flex-direction: row;
@@ -233,6 +270,7 @@ h2 {
 		margin: 10px;
 		border-radius: 10px;
 		flex-direction: column;
+		text-align: center;
 	}
 	.reference-card{
 		flex-direction: row;
@@ -245,11 +283,10 @@ h2 {
 		width: 900px;
 		height: 510px;
 	}
-	.desktop-services-content {
-		
-	}
-	.desktop-services-content p {
+	.products-text-content{
 		width: fit-content;
+		height: 510px;
+		font-size: 17px;
 	}
 	.desktop-men-nav{
 		margin: 0 100px 0;
