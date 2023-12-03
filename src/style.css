@@ -165,7 +165,9 @@ h2 {
 .reference-card img {
 	border-radius: 10px;
 }
-
+.desktop-menu-box{
+	display: none;
+}
 /* Desktop version */
 @media (min-width: 450px) {
 	.hamburger-menu {
@@ -173,34 +175,110 @@ h2 {
 	}
 	h1 {
 		font-size: 6em;
+		padding: 10px;
 	}
-	
-	nav,
-	nav ul {
-		flex-direction: column;
+	header{
+		margin: 20px;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+	}
+	.content-collection{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 		align-items: center;
 	}
 	.content{
-		display: flex;
 		text-align: justify;
 		font-size: 20px;
-		padding: 0;
-		width: 80%;
-		height: 60vh;
+		padding: 10px;
+		margin: 10px;
+		width: 600px;
+		height: fit-content;
+		justify-content: center;
+		align-items: center;
 	}
+
 	.content h2{
 		font-size: 3rem;
-		margin: 0;
 	}
 	.content img{
 		height: 50vh;
 		width: 20vw;
 	}
+	.text-content {
+		display: flex;
+		flex-direction: row;
+
+	}
+	
 	.text-content p	{
-		width: 70%;
+		width:50%;
 		flex-direction: row;
 		text-align: justify;
-		font-size: 1em;
+		font-size: 1.1em;
 		margin: auto;
+	}
+	.product-card {
+		color: white;
+		background: linear-gradient(
+			18deg,
+			rgba(255, 176, 103, 1) 0%,
+			rgba(255, 195, 111, 0.22452731092436973) 100%
+		);
+		width: 600px;
+		height: 510px;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 10px;
+		flex-direction: column;
+	}
+	.reference-card{
+		flex-direction: row;
+		margin: 10px;
+	}
+	.products-content{
+		text-align: justify;
+		font-size: 20px;
+		padding: 0;
+		width: 900px;
+		height: 510px;
+	}
+	.desktop-services-content {
+		
+	}
+	.desktop-services-content p {
+		width: fit-content;
+	}
+	.desktop-men-nav{
+		margin: 0 100px 0;
+		position: fixed;
+	}
+	.desktop-menu-box{
+		background: rgb(176, 115, 58);
+		box-shadow: black 0px 0px 5px;
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		border-radius: 10px;
+		height: 50px;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+	}
+	.desktop-menu-item {
+		color: white;
+		text-decoration: none;
+		font-size: 2em;
+		padding: 0 10px 0;
+		transition:  ease-in-out 0.5s;
+
+	}
+	.desktop-menu-item:hover{
+		transition: all ease-in-out 0.5s;
+		color: black;
+		font-size: 2.1em;
 	}
 }
