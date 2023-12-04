@@ -20,7 +20,11 @@ body {
 .content-collection a{
 	text-decoration: none;
 	color: white;
-	font-style:italic;
+	font-weight: bolder;
+}
+.content-collection a:hover{
+	text-decoration: none;
+	color: black;
 	font-weight: bolder;
 }
 h1 {
