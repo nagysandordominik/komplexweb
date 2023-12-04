@@ -193,17 +193,17 @@ h2 {
 	display: none;
 }
 /* Desktop version */
-@media (min-width: 450px) {
+@media (min-width: 1280px) {
 	.hamburger-menu {
 		display: none;
 	}
 	.page-title {
-		font-size: 6em;
-		padding: 50px;
 		position: fixed;
+		font-size: 3em;
 		top: 0;
-		z-index: 1000;
-		margin-bottom: 100px;
+		margin: 100px;
+		z-index: 900;
+		height: fit-content;
 	}
 	header{
 		margin: 20px;
@@ -218,7 +218,11 @@ h2 {
 		justify-content: center;
 		align-items: center;
 	}
+	.services-collection{
+		margin: 11rem;
+	}
 	.content{
+
 		text-align: justify;
 		font-size: 20px;
 		padding: 5px;
@@ -241,13 +245,12 @@ h2 {
 	.contact-content{
 		width: fit-content;
 		font-size: 1em;
-		margin: 0;
+		margin: 11rem;
 	}
 	
 	.text-content {
 		display: flex;
 		flex-direction: row;
-
 	}
 	
 	.text-content p	{
