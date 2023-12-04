@@ -193,7 +193,7 @@ h2 {
 	display: none;
 }
 /* Desktop version */
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
 	.hamburger-menu {
 		display: none;
 	}
@@ -201,7 +201,7 @@ h2 {
 		position: fixed;
 		font-size: 3em;
 		top: 0;
-		margin: 100px;
+		margin: 80px;
 		z-index: 900;
 		height: fit-content;
 	}
@@ -217,12 +217,12 @@ h2 {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		padding: 10rem;
 	}
 	.services-collection{
 		margin: 11rem;
 	}
 	.content{
-
 		text-align: justify;
 		font-size: 20px;
 		padding: 5px;
@@ -243,9 +243,11 @@ h2 {
 		width: 20vw;
 	}
 	.contact-content{
+		padding: 10px;
 		width: fit-content;
+		height: fit-content;
 		font-size: 1em;
-		margin: 11rem;
+		margin: 10rem;
 	}
 	
 	.text-content {
@@ -257,10 +259,11 @@ h2 {
 		width:50%;
 		flex-direction: row;
 		text-align: justify;
-		font-size: 1.1em;
+		font-size: 1em;
 		margin: auto;
 	}
 	.product-card {
+		margin-top: 11rem;
 		color: white;
 		background: linear-gradient(
 			18deg,
@@ -288,7 +291,7 @@ h2 {
 	}
 	.products-text-content{
 		width: fit-content;
-		height: 510px;
+		height: fit-content;
 		font-size: 17px;
 	}
 	.desktop-men-nav{
